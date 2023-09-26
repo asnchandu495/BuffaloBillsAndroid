@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="News"
+        android:id="@+id/news"
+        android:icon="@drawable/news"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Videos"
+        android:icon="@drawable/videos"
+        android:id="@+id/videos"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Schedule"
+        android:icon="@drawable/schedule"
+        android:id="@+id/schedule"
+        />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Stadium"
+        android:id="@+id/stadium"
+        android:icon="@drawable/stadium"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Store"
+        android:icon="@drawable/store"
+        android:id="@+id/store"/>
+
+
+</menu>

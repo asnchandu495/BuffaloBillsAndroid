@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingLeft="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+         <ImageView
+             android:layout_width="90dp"
+             android:layout_height="65dp"
+             android:src="@drawable/bullicon"
+             android:layout_centerInParent="true"
+             android:paddingTop="25dp"/>
+        <ImageView
+            android:id="@+id/navClose"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:src="@drawable/navcloseicon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="40dp"
+            android:paddingTop="25dp"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:clickable="true"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/whiteTransparentItemDeselct1">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/navprofileimage"
+           android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            />
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:paddingLeft="10dp"
+           android:paddingVertical="20dp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bryan Stechler"
+               android:fontFamily="Helvetica"
+               android:textFontWeight="700"
+               android:lineHeight="18.5dp"
+               android:textSize="16sp"
+               android:textColor="@color/white"
+               android:layout_marginBottom="5dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="bryan.bills86@gmail.com"
+               android:fontFamily="Helvetica"
+               android:textFontWeight="400"
+               android:lineHeight="13.8dp"
+               android:textSize="12sp"
+               android:textColor="@color/white"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="+1 993 345 5533"
+               android:fontFamily="Helvetica"
+               android:textFontWeight="400"
+               android:lineHeight="13.8dp"
+               android:textSize="12sp"
+               android:textColor="@color/white"/>
+       </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

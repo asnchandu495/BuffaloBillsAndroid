@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="News"
+        android:id="@+id/news"
+        android:icon="@drawable/navnewsicon"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Videos"
+        android:icon="@drawable/imgvideo"
+        android:id="@+id/videos"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Schedule"
+        android:icon="@drawable/navscheduleicon"
+        android:id="@+id/schedule"
+        />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Stadium"
+        android:id="@+id/stadium"
+        android:icon="@drawable/navstadiumicom"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Store"
+        android:icon="@drawable/navstoreicon"
+        android:id="@+id/store"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="MafiaGPT"
+        android:icon="@drawable/navmafiagpticon"
+        android:id="@+id/mafiagpt"/>
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Fan Room"
+        android:icon="@drawable/img_5"
+        android:id="@+id/fanroom"/>
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Best Entry Route"
+        android:icon="@drawable/img_5"
+        android:id="@+id/bestentryroute"
+        />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Settings"
+        android:icon="@drawable/navsettingsicon"
+        android:id="@+id/settings"/>
+</group>
+
+</menu>

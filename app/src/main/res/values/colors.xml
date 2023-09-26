@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#002C95</color>
+    <color name="whiteTransparent">#26FFFFFF</color>
+    <color name="whiteTransparentItem">#33FFFFFF</color>
+    <color name="whiteTransparentItemDeselct">#00FFFFFF</color>
+    <color name="whiteTransparentItemDeselct1">#4CFFFFFF</color>
+    <color name="red">#BF0444</color>
+
+
+
+
+</resources>

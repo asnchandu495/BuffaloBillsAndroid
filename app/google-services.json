@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "635246642913",
+    "project_id": "buffalobills-demo-40b31",
+    "storage_bucket": "buffalobills-demo-40b31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635246642913:android:46909c55a8c66bf28c59a0",
+        "android_client_info": {
+          "package_name": "com.buffalobills.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBQ0gvuusu0vjIznXP7IHdphm904l7PIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
